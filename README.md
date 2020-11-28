@@ -81,7 +81,7 @@ Superuser created successfully.
 webアプリを起動します。
 
 ```
-$ python manage.py runserver
+$ python manage.py runserver --insecure
 ```
 
 ブラウザから http://localhost:8000/admin/ にアクセスして上記で作成した管理ユーザでログインします。
