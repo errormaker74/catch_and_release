@@ -116,6 +116,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = BASE_DIR / 'static'
+
 # secrets.json から設定値を取得
 if (BASE_DIR / 'secrets.json').exists():
     with open(BASE_DIR / 'secrets.json', mode='r') as f:
